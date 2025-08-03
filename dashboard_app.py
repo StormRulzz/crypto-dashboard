@@ -48,4 +48,3 @@ ax2.set_title("BTC Halving Events and Price")
 st.pyplot(fig2)
 
 st.info("Next: Integrating Google Trends, GitHub, Twitter sentiment overlays...")
-Update to upgraded dashboard
