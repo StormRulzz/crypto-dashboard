@@ -48,3 +48,16 @@ ax2.set_title("BTC Halving Events and Price")
 st.pyplot(fig2)
 
 st.info("Next: Integrating Google Trends, GitHub, Twitter sentiment overlays...")
+
+# RWA Inflow into XRPL (Placeholder)
+st.subheader("🏦 RWA Inflow into XRPL (Placeholder)")
+rwa_months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+rwa_inflow_usd_millions = [12, 18, 25, 40, 65, 90]  # Simulated cumulative RWA inflow
+
+fig3, ax3 = plt.subplots()
+ax3.plot(rwa_months, rwa_inflow_usd_millions, marker='o', color='green')
+ax3.set_ylabel("Cumulative RWA Value on XRPL (USD millions)")
+ax3.set_title("Real World Asset Tokenization Inflow on XRP Ledger")
+st.pyplot(fig3)
+
+st.caption("Simulated data. Replace with live XRPL issued-currency / RWA.xyz data when available.")
